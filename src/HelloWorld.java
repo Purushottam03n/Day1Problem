@@ -13,5 +13,8 @@ public class HelloWorld {
 
         PrimitiveDataType primitiveDataType = new PrimitiveDataType();
         primitiveDataType.display();
+
+        EqualString equalString = new EqualString();
+        equalString.isEqual();
     }
 }
