@@ -10,5 +10,8 @@ public class HelloWorld {
         leapYear.year = sc.nextInt();
 
         leapYear.isLeapYear();
+
+        PrimitiveDataType primitiveDataType = new PrimitiveDataType();
+        primitiveDataType.display();
     }
 }
